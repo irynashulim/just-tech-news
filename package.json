@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "seed": "node seeds/index.js"
+    "seed": "node seeds/index.js",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,8 @@
     "express-session": "^1.17.2",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6"
   }
 }
